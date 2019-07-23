@@ -1,5 +1,6 @@
 $("document").ready(() => {
-    $(window).resize(set_rot_size);
+    set_rot_size();
+    $(window).on("resize", set_rot_size);
     $("#nav-home").click(() => {
         $("#body").load("./home.html");
     });
