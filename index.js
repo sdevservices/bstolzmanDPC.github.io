@@ -1,10 +1,10 @@
 $("document").ready(() => {
-    set_rot_size();
     $(window).on("resize", set_rot_size);
     $("#nav-home").click(() => {
         $("#body").load("./home.html");
+        set_rot_size();
     });
-    set_rot_size();
+    
   })
 
   function set_rot_size() {
