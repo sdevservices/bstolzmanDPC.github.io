@@ -1,0 +1,16 @@
+body {
+    background-color: #202124;
+    background-image: url(./content/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-container {
+    background-color: rgb(63, 64, 66,.1);
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
+h1 {
+    color: white;
+}
