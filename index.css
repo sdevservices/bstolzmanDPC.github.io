@@ -5,12 +5,14 @@ body {
     background-size: cover;
 }
 
-.body-container {
+#body-container {
     background-color: rgb(63, 64, 66,.1);
-    margin-top: 400px;
-    margin-bottom: 400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    color: White;
+    border-radius: 100%;
 }
 
-h1 {
+h1, p{
     color: white;
 }

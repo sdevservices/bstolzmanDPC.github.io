@@ -7,14 +7,16 @@
     <body>
         <div class="container" id="header">
             <nav class="navbar navbar-expand-lg navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="See Menu">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+
                 <a class="navbar-brand" href="index.html">Barrett Stolzman</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <div class="collapse navbar-collapse" id="mainNav">
                     <div class="navbar-nav">
-                            <a class="nav-item nav-link" href="#">Home</a>
-                            <a class="nav-item nav-link" href="#">Contact</a>
+                            <a class="nav-item nav-link disabled" href="#">Home</a>
+                            <a class="nav-item nav-link disabled" href="#">Contact</a>
                             <a class="nav-item nav-link disabled" href="#">CV</a>
                     </div>
                 </div>
@@ -32,9 +34,12 @@
                 </ul>
             </nav>
         </div>
-        <div class="container" id="body">
-            <div class="jumbotron-fluid row justify-content-center" id="body-container">
-                <h1>I DEVELOP STUFF</h1>
+        <div class="container" id="body-container">
+            <div class="row justify-content-center">
+                <h1 class="display-4">Im A Developer</h1>
+            </div>
+            <div class="row justify-content-center">
+                <p class="lead">Check out the links in the top right while im building out the pages of this site.</p>
             </div>
         </div>
 
