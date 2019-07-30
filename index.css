@@ -5,14 +5,23 @@ body {
     background-size: cover;
 }
 
+h1, p{
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgb(219,219,219,.25);
+    color: white;
+}
+
 #body-container {
     background-color: rgb(63, 64, 66,.1);
     margin-top: 200px;
     margin-bottom: 200px;
     color: White;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
-h1, p{
-    color: white;
-}
